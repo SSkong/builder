@@ -17,8 +17,8 @@ jobs:
           - nanopi-r5s
           - x86_64
         tag:
-          - type: rc
-            version: openwrt-22.03
+          - type: stable
+            version: openwrt-21.02
 
     steps:
     - name: Checkout
